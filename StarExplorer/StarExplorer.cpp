@@ -5,11 +5,16 @@
 #include "Ship.h"
 #include "Player.h"
 #include "Star.h"
+#include "StarSystems.h"
+
+
 
 int main()
 {
     Player* oneTrueGod = new Player("Daddy");
     Star* myFirstStar = new Star("Omnicron Persei 8, ", starType::White);
+
+    StarSystems* nebulae = new StarSystems();
    
     oneTrueGod->assignShip("Wandurfoll", 100, 100);
 
