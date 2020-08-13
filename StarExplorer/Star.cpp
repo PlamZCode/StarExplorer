@@ -14,7 +14,7 @@ Star::Star(std::string name, starType type)
 void Star::print()
 {
 
-	std::cout << "I am the infamous " << starTypeName[int(this->type)] << " star, which has the name" << this->name << "!";
+	std::cout << "I am the infamous " << starTypeName[int(this->type)] << " star, which has the name " << this->name << "!";
 
 }
 
